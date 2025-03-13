@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/public/fonts/Montserrat.ttf);
+}
+
+.rodape {
+    text-align: center;
+    font-family: "Montserrat", sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0 auto 0  auto;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+}
