@@ -18,10 +18,28 @@
     margin: 10px auto 50px auto;
 }
 
+.sobre_conteudo{
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 0 10px 0 10px;
+}
 .sobre_conteudo p {
     color: white;
     font-weight: 500;
     line-height: 50px;
     font-size: 1.5em;
     margin: 0 30px 0 30px;
+}
+
+@media (max-width: 768px) {
+    .sobre_titulo {
+        margin-top: 5%;
+    }
+
+    .sobre_conteudo p{
+        font-size: 1em;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
 }

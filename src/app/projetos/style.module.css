@@ -3,15 +3,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20;
+    gap: 20px;
     height: 100vh;
+    padding-top: 60px; 
 }
 
 .projetos_conteudo {
     display: flex;
     padding: 50px;
+    flex-wrap: wrap;
 }
+
 
 .projetos {
     max-width: 300px;
@@ -24,6 +26,7 @@
     border: 2px solid black;
     border-radius: 50px;
     margin-left: 5px;
+    margin-top: 5px;
 }
 
 .projetos h4 {
@@ -31,7 +34,25 @@
 }
 
 .link {
-    margin-top: 5px;
+    margin: 15px auto 5px auto;
+    padding: 10px;
     text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
 }
 
+@media (max-width: 768px) {
+    .section {
+        margin-top: 75%;
+        margin-bottom: 20%;
+    }
+
+    .projetos_conteudo {
+        line-height: 15px;
+    }
+
+    .projetos {
+        max-height: 450px;
+    }
+}

@@ -22,6 +22,9 @@
     text-align: left;
     font-size: 1.5em;
     line-height: 40px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 30px;
 }
 
 .conteudo_servicos li {
@@ -31,4 +34,22 @@
 
 .conteudo_servicos p {
     margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .servicos_titulo{
+        margin-top: 20%;
+    }
+
+    .servicos_titulo h1 {
+        line-height: 1px;
+        font-size: 1.7em;
+    }
+
+    .conteudo_servicos {
+        font-size: 1em;
+        line-height: 20px;
+        margin: 0 25px 50px 25px;
+    }
+
 }

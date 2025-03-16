@@ -1,0 +1,79 @@
+.contato {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    padding: 20px;
+    margin-left: 5px;
+
+}
+
+.local,
+.email,
+.telefone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.local p,
+.email p,
+.telefone p {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.contato2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.contato2 h4 {
+    font-size: 1.5em;
+}
+
+.instagram,
+.linkedin,
+.facebook,
+.whatsapp {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo{
+    margin-right: 10px;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: white;
+    background-color: black;
+    transition: .3s ease-in;
+}
