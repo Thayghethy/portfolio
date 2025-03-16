@@ -8,14 +8,16 @@ export default function Header() {
     <header className={estilos.inicio}>
         <nav className={estilos.navbar}>
             <div className={estilos.logo}>
-                <Image src={Logo} width={100} alt="logoPortfolio"/>
+                <Link href="/">
+                    <Image src={Logo} width={100} alt="logoPortfolio"/>
+                </Link>
             </div>
             <div className={estilos.nav_links}>
                 <ul>
-                    <li><Link href="#sobre">SOBRE MIM</Link></li>
-                    <li><Link href="#servicos">SERVIÇOS</Link></li>
-                    <li><Link href="#projetos">PROJETOS</Link></li>
-                    <li><Link href="#contato">CONTATOS</Link></li>
+                    <li><Link href="/sobre">SOBRE MIM</Link></li>
+                    <li><Link href="/servicos">SERVIÇOS</Link></li>
+                    <li><Link href="/projetos">PROJETOS</Link></li>
+                    <li><Link href="/contato">CONTATOS</Link></li>
                 </ul>
             </div>
         </nav>

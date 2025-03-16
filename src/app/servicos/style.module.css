@@ -1,0 +1,34 @@
+.section {
+    background-color: black;
+    max-width: 100vw;
+    margin: 0 auto 0 auto;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicos_titulo h1 {
+    color: white;
+    font-size: 2.5em;
+    margin: 10px auto 50px auto;
+}
+
+.conteudo_servicos {
+    color: white;
+    text-align: left;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
+.conteudo_servicos li {
+    padding: 5px;
+    font-weight: 700;
+}
+
+.conteudo_servicos p {
+    margin-left: 15px;
+}
