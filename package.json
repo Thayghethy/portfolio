@@ -2,19 +2,22 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://thayghethy.github.io/portfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d out"    
   },
   "dependencies": {
     "framer-motion": "^12.5.0",
     "next": "15.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
