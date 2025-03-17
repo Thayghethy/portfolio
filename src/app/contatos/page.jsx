@@ -11,7 +11,7 @@ import WhatsApp from "@/app/images/whatsapp-preto.png"
 
 export default function contatos() {
     return (
-        <section ClassName={estilos.contato}>
+        <section className={estilos.contato}>
         <div className={estilos.contato1}>
             <div className={estilos.local}>
                 <Image src={Local} alt="local" width={80}/>

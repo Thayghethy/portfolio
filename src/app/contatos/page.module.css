@@ -14,7 +14,6 @@
     margin-top: 10%;
     padding: 20px;
     margin-left: 5px;
-
 }
 
 .local,
@@ -28,7 +27,6 @@
     padding: 5px;
     border: 1px solid black;
     border-radius: 20px;
-
 }
 
 .local p,
@@ -47,33 +45,80 @@
     border: 1px solid black;
     border-radius: 10px;
     max-width: 800px;
+    padding: 20px;
 }
 
 .contato2 h4 {
     font-size: 1.5em;
+    text-align: center;
 }
 
+/* Ajuste para alinhar os ícones verticalmente */
 .instagram,
 .linkedin,
 .facebook,
 .whatsapp {
     display: flex;
-    justify-content: left;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
     margin-bottom: 10px;
 }
 
-.logo{
-    margin-right: 10px;
+.logo {
+    margin-bottom: 5px;
+    width: 50px;
+    height: auto;
 }
 
 .link {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 .link:hover {
     color: white;
     background-color: black;
     transition: .3s ease-in;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .contato {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    .contato1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .local,
+    .email,
+    .telefone {
+        margin-top: 10px;
+    }
+
+    .contato2 {
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .instagram,
+    .linkedin,
+    .facebook,
+    .whatsapp {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        width: 40px;
+        height: auto;
+    }
 }
