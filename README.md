@@ -15,7 +15,7 @@ Este é o repositório do meu portfólio pessoal, desenvolvido em **React.js**. 
 - **Download do meu currículo** em PDF.
 
 ## Como Executar o Projeto
-Veja pelo Link: https://portfolio-lilac-ten-39.vercel.app ,
+Veja pelo Link: [Portfólio](https://portfolio-jxa5yog6x-thayghethys-projects.vercel.app/) ,
 ou então:
 1. Clone o repositório:
    ```bash
@@ -40,7 +40,7 @@ https://github.com/Thayghethy/portfolio
 
 ## Contato
 Para mais informações, você pode me encontrar em:
-- [LinkedIn]([https://linkedin.com/in/seu-perfil](https://www.linkedin.com/in/thayghethy-souza-22428120a/))
+- [LinkedIn](https://www.linkedin.com/in/thayghethy-souza-22428120a/)
 - [GitHub](https://github.com/Thayghethy)
 - Email: thayghethy@outlook.com
 
