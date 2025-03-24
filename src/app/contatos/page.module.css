@@ -85,40 +85,16 @@
 }
 
 /* Responsividade */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .contato {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 10%;
-    }
-
-    .contato1 {
-        flex-direction: column;
-        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        height: 80%;
     }
 
     .local,
     .email,
     .telefone {
-        margin-top: 10px;
-    }
-
-    .contato2 {
-        width: 90%;
-        margin-bottom: 10%;
-    }
-
-    .instagram,
-    .linkedin,
-    .facebook,
-    .whatsapp {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .logo {
-        width: 40px;
-        height: auto;
+        margin-bottom: 2px;
     }
 }

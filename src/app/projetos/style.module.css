@@ -4,14 +4,18 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 100vh;
+    height: 80%;
     padding-top: 60px; 
+    margin: 80px 0 50px 0;
 }
 
 .projetos_conteudo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px;
     flex-wrap: wrap;
+    gap: 20;
 }
 
 
@@ -42,17 +46,11 @@
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-    .section {
-        margin-top: 75%;
-        margin-bottom: 20%;
+@media (max-width: 1000px) {
+    .section{
+        margin-top: 80px;
+        margin-bottom: 50px;
+        height: 80%;
     }
 
-    .projetos_conteudo {
-        line-height: 15px;
-    }
-
-    .projetos {
-        max-height: 450px;
-    }
 }

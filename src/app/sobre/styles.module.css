@@ -33,13 +33,13 @@
 }
 
 @media (max-width: 768px) {
-    .sobre_titulo {
-        margin-top: 5%;
+    .sobre{
+        margin-top: 80px;
+        margin-bottom: 50px;
     }
-
-    .sobre_conteudo p{
+    .sobre_conteudo p {
         font-size: 1em;
-        line-height: 25px;
-        margin-bottom: 25px;
+        line-height: 20px;
+        margin-bottom: 20px;
     }
 }

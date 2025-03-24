@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Lupa from "../images/lupa.jpg"
 import Cruz from "../images/cruz.png"
 import Aviao from "../images/aviao.png"
+import Cifrao from "../images/cifrao.png"
 import Link from "next/link"
 
 export default function projetos () {
@@ -32,6 +33,13 @@ export default function projetos () {
                 <p>Projeto de website para agência de viagens, desenvolvido durante os estudos de HTML e CSS, aplicando conhecimentos sobre formulários e Flexbox. </p>
                 <Link className={estilos.link} href="https://thayghethy.github.io/Agencia-de-Viagens" target="_blank">Acesse o Projeto!</Link>
                 <Link className={estilos.link} href="https://github.com/Thayghethy/Agencia-de-Viagens" target="blank">Acesse o código!</Link>
+            </div>
+            <div className={estilos.projetos} id="navbank">
+                <Image src={Cifrao} alt="cifrao" width={80}/>
+                <h4>Projeto Internet Banking</h4>
+                <p>Projeto de internet banking feito por conta própria para treino de HTML, CSS e JavaScript.</p>
+                <Link className={estilos.link} href="https://thayghethy.github.io/BancoNavBank" target="_blank">Acesse o Projeto!</Link>
+                <Link className={estilos.link} href="https://github.com/Thayghethy/BancoNavBank" target="_blank">Acesse o código</Link>
             </div>
         </div>
     </section>
