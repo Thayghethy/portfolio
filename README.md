@@ -15,6 +15,8 @@ Este é o repositório do meu portfólio pessoal, desenvolvido em **React.js**. 
 - **Download do meu currículo** em PDF.
 
 ## Como Executar o Projeto
+Veja pelo Link: https://portfolio-lilac-ten-39.vercel.app ,
+ou então:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/Thayghethy/portfolio.git
