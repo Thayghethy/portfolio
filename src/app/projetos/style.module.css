@@ -22,8 +22,8 @@
 .projetos {
     min-width: 300px;
     max-width: 300px;
-    max-height: 500px;
-    min-height: 500px;
+    max-height: 550px;
+    min-height: 550px;
     padding: 50px;
     display: flex;
     flex-direction: column;
